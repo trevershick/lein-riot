@@ -1,4 +1,4 @@
-(defproject lein-riot "0.0.1-01-SNAPSHOT"
+(defproject lein-riot "0.0.1"
   :description "Compile Riot Tags Plugin"
   :url "https://github.com/trevershick/lein-riot"
   :license {:name "Apache License, version 2.0"
