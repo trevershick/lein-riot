@@ -11,9 +11,12 @@ To enable lein-riot for your project, put the following in the
 
 ## Configuring Riot
 
+``` clojure
   :riot { :tags [["resources/public/" "resources/public/seisei-tags.js"]]}
+```
 
 You can also specify other parameters for riot:
+``` clojure
   :riot {
     :compact true
     :whitespace true
@@ -22,7 +25,7 @@ You can also specify other parameters for riot:
     :ext <value>
     :type <value>
   }
-
+```
 Documentation of these features can be found in the [Riot Compiler Documentation](https://muut.com/riotjs/compiler.html).
 
 ## Invoking Riot
