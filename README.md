@@ -40,7 +40,6 @@ $ lein riot help   # Shows Help
 
 Riot uses lein-npm to automatically install Riot via the npm package manager if it's not installed already.
 
-
 ## License
 
 Copyright 2015 Trever M. Shick
