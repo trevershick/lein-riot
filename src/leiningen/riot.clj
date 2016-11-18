@@ -1,8 +1,7 @@
 (ns leiningen.riot
   (:require [leiningen.help :as help]
             [leiningen.core.main :as main]
-            [leiningen.npm :refer
-             [with-json-file environmental-consistency transform-deps npm]]
+            [leiningen.npm :refer [npm]]
             [cheshire.core :as json]
             [leiningen.npm.deps :refer [resolve-node-deps]]
             [leiningen.npm.process :refer [exec]]
