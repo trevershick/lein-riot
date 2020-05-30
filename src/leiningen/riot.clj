@@ -28,8 +28,8 @@
 
 (defn- invoke
   [project & args]
-  (let [local-riot (io/as-file "./node_modules/riot/lib/cli.js")
-        _   (if-not (.exists local-riot) (npm project "install" "riot"))
+  (let [local-riot (io/as-file "./node_modules/.bin/riot")
+        _   (if-not (.exists local-riot) (npm project "install" "@riotjs/cli"))
         cmd (if (.exists local-riot) (.getPath local-riot) "riot")
         riot-config (:riot project)
         riot-opts (riot-xtra-args project)
